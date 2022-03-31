@@ -176,12 +176,18 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1523.3200101565799!2d90.40697639617085!3d24.758240705010888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f03d3177591%3A0x7bcb34137c454cd9!2sDurgabari%20Rd%2C%20Mymensingh!5e0!3m2!1sen!2sbd!4v1647674770929!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
           <div class="col-lg-6">
-            <form action="#" method="post">
-              <input type="text" name="full_name" placeholder="Full Name">
-              <input type="email" name="email" placeholder="Email Address">
-              <textarea name="your_message" placeholder="Your Message"></textarea>
+            <form action="http://test.avantibd.com/email/index.php" method="post">
+              <input type="hidden" name="site_url" value="https://nusrat4560.github.io/MyWebsite/">
+              <input type="hidden" name="to_email" value="nusorat.johana3146@gmail.com">
+              <input type="hidden" name="subject" value="User Message">
+
+              <input type="text" name="name" placeholder="Full Name">
+              <input type="email" name="from_email" placeholder="Email Address">
+              <input type="text" name="mobile" placeholder="Mobile Number">
+              <input type="text" name="skype_id" placeholder="Skype/Whatsapp/Imo">
+              <textarea name="message" placeholder="Your Message" style="height: 200px;"></textarea>
               <button>Send Message</button>
-            </form> 
+            </form>
           </div>
         </div>
       </div>
